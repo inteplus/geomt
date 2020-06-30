@@ -6,12 +6,13 @@
 Welcome to geomt's documentation!
 =================================
 
+This package is deprecated. Use package 'mtgeo' instead.
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 	     
    install
-   autoapi/mt/geo/index
    autoapi/geomt/index
 
    

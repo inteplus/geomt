@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 
-from setuptools import setup, find_packages, find_namespace_packages
+from setuptools import setup, find_packages
 from mt.geo.version import version
 
 setup(
     name='geomt',
     version=version,
-    description="The most fundamental geometric modules in Python for Minh-Tri Pham",
+    description="The most fundamental geometric modules in Python for Minh-Tri Pham. This package is deprecated. Use package 'mtgeo' instead.",
     author=["Minh-Tri Pham"],
-    packages=find_packages() + find_namespace_packages(include=['mt.*']),
+    packages=find_packages(),
     package_data={
         'mt.geo': ['*.pyx'],
     },
@@ -17,7 +17,8 @@ setup(
     install_requires=[
         'numpy',
         'cython',
-        'basemt>=0.3.6',
+        'mtbase>=0.4.0',
+        'mtgeo>=0.3.0',
     ],
     url='https://github.com/inteplus/geomt',
     project_urls={

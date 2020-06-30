@@ -1,6 +1,8 @@
 Installation
 ============
 
+This package is deprecated. Use package 'mtgeo' instead.
+
 Install via pip::
 
     pip3 install geomt
