@@ -1,6 +1,7 @@
 sphinx-autoapi
 sphinx-rtd-theme
 numpy
-basemt>=0.4.1
+basemt
+mtbase>=0.4.1
 mtgeo>=0.3.1
 
